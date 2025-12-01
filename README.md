@@ -181,15 +181,7 @@ Validations :
   - npm run dev : Lance le serveur en mode développement avec nodemon
   - npm start : Lance le serveur en mode production
 
-- Exemples de Requêtes
-
-  - Ajouter un produit
-  
-  ```bash
-  curl -X POST http://localhost:3000/produits \
-    -H "Content-Type: application/json" \
-    -d '{"nom":"Gomme","prix":150,"quantite":25,"categorie":"Fourniture"}'
-  ```
+- Exemple de Requête
   
   - Rechercher des produits
   
